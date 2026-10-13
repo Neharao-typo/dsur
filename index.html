@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#172554">
+<meta name="description" content="Data Science Using R — 32 practical programs with searchable code and offline support.">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<title>Data Science Using R — 32 Programs</title>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">PRACTICAL LAB REFERENCE</div>
+    <h1>Data Science <span>Using R</span></h1>
+    <p>32 programs · Searchable code · Copy-ready examples · Offline access</p>
+    <div class="hero-meta"><span>32 Programs</span><span>R Language</span><span id="connection">Checking connection…</span></div>
+  </div>
+</header>
+<main class="layout">
+  <aside class="sidebar">
+    <label for="search">Find a program</label>
+    <input id="search" type="search" placeholder="Search by name or number…" autocomplete="off">
+    <div class="side-note">Select a program to view its code.</div>
+    <nav id="program-list" aria-label="Program list"></nav>
+  </aside>
+  <section class="content" aria-live="polite">
+    <div class="content-top"><span id="program-number" class="pill">PROGRAM 01</span><span id="result-count">32 programs</span></div>
+    <h2 id="program-title">Basic arithmetic and mathematical operations</h2>
+    <p class="intro">Select a program from the list, then copy the code into R or RStudio.</p>
+    <div class="code-toolbar"><span>R CODE</span><button id="copy" type="button">Copy code</button></div>
+    <pre><code id="code"></code></pre>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <div class="bottom-nav"><button id="previous" type="button">← Previous</button><button id="next" type="button">Next →</button></div>
+    <div class="offline-note"><strong>Offline tip:</strong> Open this website while online once. The pages and programs are cached on this device, so you can reopen them without internet. Offline changes and new content will not sync until you reconnect.</div>
+    <footer>Data Science Using R · 32 Programs</footer>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "Data Science Using R \u2014 32 Programs",
+  "short_name": "R Programs",
+  "description": "Searchable Data Science using R practical programs with offline support.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#172554",
+  "icons": []
+}
